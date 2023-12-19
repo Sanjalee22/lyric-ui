@@ -34,3 +34,10 @@ https://65813f4a58f3e674f295bb25--bespoke-gnome-49d690.netlify.app/?path=/story/
 
 ## Observations
 The project is structured in such a  way that it is ready to be published on npm with all the exports being done from the projects entry point -> index.tsx. This would make imports from the package by the consumer app easy and readable.
+
+Apart from the components, theme and CSS variable resolver will also be available to the consumer application. The consumer application can import the theme and variable resolver to set up it's Mantine Provider. This is an essential step for the consumer to use the components provided by the library. 
+
+For example:
+
+<img width="704" alt="image" src="https://github.com/Sanjalee22/lyric-ui/assets/34329090/f2ef8f12-4f06-470c-9d18-6d09a02f8320">
+
