@@ -1,4 +1,4 @@
-#UI components extending components from Mantine
+# UI components extending components from Mantine
 
 ## Available Scripts
 
