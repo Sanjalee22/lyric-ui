@@ -1,0 +1,47 @@
+button[data-with-left-section="true"][data-size="md"] span[data-position="left"] {
+  margin-right: 4px;
+  height: 16px;
+  width: 16px;
+}
+
+button[data-with-right-section="true"][data-size="md"] span[data-position="right"] {
+  margin-left: 4px;
+  height: 16px;
+  width: 16px;
+}
+
+button[data-with-left-section="true"] span[data-position="left"] {
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+}
+
+button[data-with-right-section="true"] span[data-position="right"] {
+  margin-left: 4px;
+  height: 12px;
+  width: 12px;
+}
+
+button[data-size="md"] {
+  padding: 10px 16px;
+}
+
+button[data-size="md"] p {
+  font-weight: 600;
+}
+
+button[data-size="sm"] {
+  padding: 7px 12px;
+}
+
+button[data-size="sm"] p {
+  font-weight: 500;
+}
+
+button[data-size="xs"] {
+  padding: 5px 10px;
+}
+
+button[data-size="xs"] p {
+  font-weight: 500;
+}

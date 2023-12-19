@@ -1,0 +1,31 @@
+button {
+  height: auto !important;
+  width: auto !important;
+}
+
+button[data-size="md"]:not([label]) {
+  padding: 11px;
+}
+
+button[data-size="md"] svg {
+  height: 18px;
+  width: 18px;
+}
+
+button[data-size="sm"]:not([label]) {
+  padding: 8px;
+}
+
+button[data-size="sm"] svg {
+  height: 14px;
+  width: 14px;
+}
+
+button[data-size="xs"]:not([label]) {
+  padding: 6px;
+}
+
+button[data-size="xs"] svg {
+  height: 12px;
+  width: 12px;
+}
