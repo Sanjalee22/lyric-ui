@@ -29,5 +29,8 @@ https://65813f4a58f3e674f295bb25--bespoke-gnome-49d690.netlify.app/?path=/story/
 
 ## Folder structure
 
+<img width="280" alt="image" src="https://github.com/Sanjalee22/lyric-ui/assets/34329090/6741f414-026c-4e8a-a86f-ed7c6a2e3971">
+
+
 ## Observations
 The project is structured in such a  way that it is ready to be published on npm with all the exports being done from the projects entry point -> index.tsx. This would make imports from the package by the consumer app easy and readable.
